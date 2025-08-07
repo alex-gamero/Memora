@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <a href="index.html" class="logo">Flashcards</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html" class="cta-button">Register</a></li>
+                <li><a href="loginPage.html" class="cta-button">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container form-container">
+        <form id="loginForm" action=" " method="POST" class="styled-form"> <!--Action TO DO-->
+            <h2 class="form-title">Log in to your Flashcards Account</h2>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="submit-button">Log In</button>
+        </form>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Alex, Reilly, Andrea</p>
+    </footer>
+
+</body>
+</html>

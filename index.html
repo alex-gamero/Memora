@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="index-layout">
+
+    
+    <header class="main-header">
+        <nav class="container">
+            <a href="index.html" class="logo">Flashcards</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html" class="cta-button">Register</a></li>
+                <li><a href="loginPage.html" class="cta-button">Login</a></li> <!-- Needed?-->
+            </ul>
+        </nav>
+    </header>
+
+   <main class="container">
+        <section>
+            <h2 class="section-title1">Explore Flashcard Decks</h2>
+            
+            <div class="search-and-filter">
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search for a deck...">
+                </div>
+                <div class="filter-options">
+                    <label for="languageFilter">Language:</label>
+                    <select id="languageFilter">
+                        <option value="all">All</option>
+                        <option value="anishnabek">Anishnabek</option>
+                        <option value="spanish">Spanish</option>
+                    </select>
+                </div>
+            </div>
+
+    <main class="container">
+        <section class="description-section">
+            <h2 class="description-title">The Memory Deck: Study Smarter, Not Harder!</h2>
+            <p class="description-subtitle">
+                Practice and learn new vocabulary with our dynamic flashcards!
+            </p>
+        </section>
+
+
+
+        <section class="demo-decks-section">
+            <h3 class="section-title2">Demo Decks</h3>
+            <div class="deck-grid">
+                <!-- Spanish -->
+                <div class="card" data-language="spanish">
+                    <h4 class="card-title">Spanish - Basic</h4>
+                    <p class="card-meta">25 cards</p>
+                    <a href="spanishDeck.html" class="study-link">Start Studying</a>
+                </div>
+                <div class="card spanish-intermediate" data-language="spanish">
+                    <h4 class="card-title">Spanish - Intermediate</h4>
+                    <p class="card-meta">30 cards</p>
+                    <a href="spanishDeck.html?level=intermediate" class="study-link">Start Studying</a>
+                </div>
+                <div class="card spanish-advanced" data-language="spanish">
+                    <h4 class="card-title">Spanish - Advanced</h4>
+                    <p class="card-meta">35 cards</p>
+                    <a href="spanishDeck.html?level=advanced" class="study-link">Start Studying</a>
+                </div>
+                <!-- Anishnabek -->
+                <div class="card" data-language="anishnabek">
+                    <h4 class="card-title">Anishnabek - Basic</h4>
+                    <p class="card-meta">25 cards</p>
+                    <a href="anishnabekDeck.html" class="study-link">Start Studying</a>
+                </div>
+                <div class="card anishnabek-intermediate" data-language="anishnabek">
+                    <h4 class="card-title">Anishnabek - Intermediate</h4>
+                    <p class="card-meta">28 cards</p>
+                    <a href="anishnabekDeck.html?level=intermediate" class="study-link">Start Studying</a>
+                </div>
+                <div class="card anishnabek-advanced" data-language="anishnabek">
+                    <h4 class="card-title">Anishnabek - Advanced</h4>
+                    <p class="card-meta">32 cards</p>
+                    <a href="anishnabekDeck.html?level=advanced" class="study-link">Start Studying</a>
+                </div>
+            </div>
+            <div id="noResultsMsg" class="no-results-message" style="display:none;">
+                No decks found matching your search.
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Alex, Reilly, Andrea</p>
+    </footer>
+
+    <script src="buttons.js"></script>
+
+</body>
+</html>

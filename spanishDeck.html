@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Deck</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <a href="index.html" class="logo">Flashcards</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html" class="cta-button">Register</a></li>
+                <li><a href="login.html" class="cta-button">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="deck-view">
+            <h2 class="section-title">Spanish - Basic Vocabulary</h2>
+            
+            <div class="card-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="card-front">
+                        <p class="card-text">Hola</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="card-text">Hello</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deck-controls">
+                <button id="previousCardBtn" class="control-btn">&lt;</button>
+                <button id="flipCardBtn" class="control-btn">Flip Card</button>
+                <button id="nextCardBtn" class="control-btn">&gt;</button>
+            </div>
+            
+            <div class="deck-management-menu">
+                <button id="addCardBtn" class="manage-btn">Add Card</button>
+                <button id="editDeckBtn" class="manage-btn">Edit Deck</button>
+                <button id="deleteDeckBtn" class="manage-btn">Delete Deck</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Alex, Reilly, Andrea</p>
+    </footer>
+
+    <script src="buttons.js"></script>
+
+</body>
+</html>
