@@ -21,5 +21,5 @@ Want to help improve Memora? Open an **issue** or submit a **PR**!
 
 ---  
 
-### **Why Memora?**  
+## **Why Memora?**  
 Because learning a language should be **simple, flexible, and fun**—not a chore. Start flipping flashcards today!  
