@@ -1,4 +1,4 @@
-# Memora 🌍📚  
+# Memora 
 **Learn Languages with Smart Flashcards**  
 
 Memora is a web app designed to help you master languages effortlessly using interactive flashcards. Currently supporting **Spanish** and **Anishnabek**, Memora lets you create, edit, and organize flashcards to boost your vocabulary retention.  
@@ -7,7 +7,7 @@ Memora is a web app designed to help you master languages effortlessly using int
 
 ---  
 
-## **Features** ✨  
+## **Features**   
 ✔ **Create Custom Flashcards** – Add your own words/phrases with translations.  
 ✔ **Edit & Delete** – Modify or remove flashcards anytime.  
 ✔ **Bilingual Support** – Learn in **Spanish** or **Anishnabek** (more languages coming soon!).  
