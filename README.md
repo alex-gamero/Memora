@@ -16,10 +16,10 @@ Memora is a web app designed to help you master languages effortlessly using int
 
 ---  
 
-## **Contributing** 🤝  
+## **Contributing** 
 Want to help improve Memora? Open an **issue** or submit a **PR**!  
 
 ---  
 
 ## **Why Memora?**  
-Because learning a language should be **simple, flexible, and fun**—not a chore. Start flipping flashcards today!  
+Because learning a language should be **simple, flexible, and fun.** Start flipping flashcards today!  
